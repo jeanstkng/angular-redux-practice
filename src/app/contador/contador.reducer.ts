@@ -1,7 +1,7 @@
 import { Action, createReducer, on } from '@ngrx/store';
 import * as ContadorPageActions from '../contador/contador.actions';
 
-export const initialState: number =  0
+export const initialState: number =  10;
 
 const contadorReducer = createReducer(
     initialState,
